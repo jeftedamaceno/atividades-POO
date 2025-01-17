@@ -1,19 +1,3 @@
-# class Conta():
-#     def __init__(self, clientes, numero, saldo=0):
-#         self.clientes = clientes
-#         self.numero = numero
-#         self.saldo = saldo
-
-#     def resumo(self):
-#         print("CC numero saldo: %s Saldo %10.2f" %(self.numero, self.saldo))
-
-#     def saque(self, valor):
-#         if self.saldo >= valor:
-#             self.saldo -= valor
-
-#     def deposito(self, valor):
-#         self.saldo += valor
-
 
 class Conta: 
     def __init__(self, clientes, número, saldo = 0): 
